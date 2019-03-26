@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+/* Components */
+import { NavComponent } from './../components/nav/nav.component';
+
+const routes: Routes = [
+  {path: "nav", component: NavComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
