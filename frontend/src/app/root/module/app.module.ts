@@ -14,7 +14,7 @@ import  {AccountModule } from '../../account-section/module/account.module'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AccountModule
+    AccountModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

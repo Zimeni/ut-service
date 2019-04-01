@@ -11,7 +11,11 @@ import { LoginRegistragionComponent } from './../components/login-registragion/l
   ],
   imports: [
     CommonModule,
-    AccountRoutingModule
+    AccountRoutingModule,
+    
+  ],
+  exports: [
+    LoginRegistragionComponent
   ]
 })
 export class AccountModule { }

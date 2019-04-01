@@ -1,2 +1,19 @@
 <app-nav></app-nav>
 <router-outlet></router-outlet>
+
+<div>
+    <p>True: {{t}}</p>
+    <p>False: {{f}}</p>
+
+    <!-- <button (click)="callvar.lala()">childs</button>
+
+    <app-login-registragion #callvar>
+    </app-login-registragion>
+
+    -->
+
+
+    <button (click) = 'update()'></button>
+    <app-login-registragion  [valval] = 'val'></app-login-registragion>
+</div>
+
